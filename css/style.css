@@ -10,7 +10,9 @@ body {
     background: #fff;
     font-family: 'Source Sans Pro', sans-serif;
 }
+@media screen and (max-width: 512px) and (min-width: 100px) { 
 
+}
 body a,
 .agile_form input[type="submit"] {
     -webkit-transition: 0.5s all;
@@ -455,12 +457,14 @@ h4.agileinfo-head {
 }
 
 div#skills {
-    background: url(../images/bg9.jpg) fixed;
+    /* background-image: linear-gradient(to left bottom, #45104a, #4b1161, #4c177b, #412098, #192db7); */
+    background-image: url(../images/svg_skills_bg.svg);
     background-size: cover;
 	-webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
+    
 }
 
 
@@ -1567,4 +1571,43 @@ ul.w3-links li a i.fa:hover {
          right: 7%;
     }
 }
+
+/* Skills bar styles */
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-title {
+    color: #323232;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #323232;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
 /* -- //Responsive code -- */
