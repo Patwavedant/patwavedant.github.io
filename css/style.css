@@ -212,7 +212,7 @@ nav {
     -o-transition: right 0.2s linear;
     -webkit-transition: right 0.2s linear;
     transition: right 0.2s linear;
-    width: 220px;
+    width: 150px;
     z-index: 9001;
     /* IT'S OVER 9000! */
     padding-top: 4em;
@@ -232,7 +232,7 @@ nav {
     background: #7690a1;
     display: block;
     height: 10%;
-    left: 20%;
+    right: 20%;
     position: absolute;
     top: 45%;
     width: 60%;
