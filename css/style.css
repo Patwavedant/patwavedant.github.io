@@ -222,9 +222,9 @@ nav {
     display: block;
     position: fixed;
     height: 40px;
-    right: 15%;
-    top: 33px;
-    width: 46px;
+    right: 4%;
+    top: 5px;
+    width: 60px;
     z-index: 9999;
 }
 
