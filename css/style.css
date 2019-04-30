@@ -458,7 +458,7 @@ h4.agileinfo-head {
 
 div#skills {
     /* background-image: linear-gradient(to left bottom, #45104a, #4b1161, #4c177b, #412098, #192db7); */
-    background-image: url(../images/svg_skills_bg.svg);
+    background-image: url(../images/skills_bg.svg);
     background-size: cover;
 	-webkit-background-size: cover;
     -o-background-size: cover;
