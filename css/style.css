@@ -357,6 +357,7 @@ h3.agileits-title {
     font-size: 2.5em;
     text-transform: uppercase;
     font-weight: 600;
+    margin-bottom: 0.5em;
     color: #fafcff;
     text-align: center;
 }
@@ -505,7 +506,7 @@ div#skills {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110px;
+    width: 270px;
     font-size: 13px;
     color: #fff;
     background: #6adcfa;
